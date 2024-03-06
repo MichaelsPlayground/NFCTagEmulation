@@ -4,6 +4,8 @@ This project provides
 -   Simulate NFC/NFC-F(Felica Card)
 -   Sample Command for CCC-Digital key
 
+Original Source: https://github.com/baka3k/NFCTagEmulation
+
 ## Getting started
 Notice: Some commands of project base on CCC-TS-101-Digital-Key-R3_1.0.0.pdf, it might out date
 

@@ -28,7 +28,8 @@ class NFCEmulationCardActivity : BaseActivity() {
     }
 
     private fun checkForceDefaultServiceAid() {
-        val aid = parseAid(resources.getXml(R.xml.myaptuservice))
+        // todo changed val aid = parseAid(resources.getXml(R.xml.myaptuservice))
+        val aid = parseAid(resources.getXml(hi.baka3k.nfcemulator.R.xml.myaptuservice))
         if (!cardEmulation.isDefaultServiceForAid(
                 ComponentName(
                     this,
